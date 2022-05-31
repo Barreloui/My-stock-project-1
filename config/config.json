@@ -1,0 +1,20 @@
+{
+  "development": {
+    "username": "stock",
+    "password": "Sportfaza89!",
+    "database": "stock_market_db",
+    "host": "78.46.109.73",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "stock",
+    "password": null,
+    "database": "database_test",
+    "host": "78.46.109.73",
+    "dialect": "mysql"
+  },
+  "production": {
+    "use_env_variable": "JAWSDB_URL",
+    "dialect": "mysql"
+  }
+}
